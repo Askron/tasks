@@ -1,0 +1,20 @@
+body {background: #f2f3f4; transition: .2s;}
+header {margin-top: 16px; line-height: 48px;
+    select.header__select {display: inline; width: auto;}
+}
+main {margin-top: 32px; font-size: 18px;}
+.header {font-weight: bold;}
+.task {margin-top: 8px; padding-top: 4px; padding-bottom: 4px; background: rgba(192, 192, 192, .2);
+    .btn-edit-wrap {display: flex; justify-content: flex-end;}
+    .btn-cancel {display: none; margin: 0 5px;}
+    .btn-save {display: none;}
+    .col {overflow-x: hidden!important; text-overflow: ellipsis!important;}
+}
+.pagination {margin-top: 32px;
+    .page.active {background: #28a745; color: white; border-radius: 12px;}
+}
+.add-form {margin-top: 16px; padding-top: 8px; padding-bottom: 8px; border: 1px dashed rgba(40, 167, 69, .5);
+    .submit-wrap {display: flex; justify-content: flex-end; align-items: center;}
+    .add-form__textarea {height: 38px; min-height: 38px; max-height: 256px;}
+}
+.wrong {border:1px solid red;}
